@@ -5,6 +5,7 @@ edition = "2021"
 description = "A very simple zero-player fight simulator between groups of squares."
 authors = ["Matthieu JOLIMAITRE <matthieu@imagevo.fr>"]
 license = "MIT"
+repository = "https://github.com/MajorBarnulf/pixel_fight"
 
 [dependencies]
 anyhow = "1.0.50"
