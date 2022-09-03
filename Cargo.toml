@@ -1,15 +1,16 @@
 [package]
-name = "pixel_fight_rs"
+name = "pixel_fight"
 version = "0.1.0"
 edition = "2021"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+description = "A very simple zero-player fight simulator between groups of squares."
+authors = ["Matthieu JOLIMAITRE <matthieu@imagevo.fr>"]
+license = "MIT"
 
 [dependencies]
 anyhow = "1.0.50"
-clap = { version = "3.2.20", features = ["derive"] }
-rand = "0.8.5"
-rayon = "1.5.3"
-ron = "0.8.0"
-serde = { version = "1.0.144", features = ["derive"] }
-speedy2d = "1.8.0"
+clap = { version = "3.2", features = ["derive"] }
+rand = "0.8"
+rayon = "1.5"
+ron = "0.8"
+serde = { version = "1.0", features = ["derive"] }
+speedy2d = "1.8"
